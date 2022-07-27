@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_apm_sl_costcalcualtion">
+  <description>This Script will work on &apos;Bill of Materials Revision&apos; record. When user click on &apos;Cost Calculation&apos; Button, Then script will make addition of calculated cost line field value and set final value on &apos;component cost total&apos; field in bill of material revision record.</description>
+  <isinactive>F</isinactive>
+  <name>APM_SL_costCalcualtionOnBillOfMaterial</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/APM_SUITE_costCalcualtionOnBillOfMaterials.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_apm_sl_costcalcualtion">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>APM_SUITE_costCalcualtionOnBillOfMateria</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

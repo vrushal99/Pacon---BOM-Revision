@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_apm_sl_costcalcualtion">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>APM_SL_costCalcualtionOnBillOfMaterial</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/APM_SUITE_costCalcualtionOnBillOfMaterials.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_apm_sl_costcalcualtion">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>TESTING</status>
+      <title>APM_SUITE_costCalcualtionOnBillOfMateria</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>
